@@ -1,6 +1,7 @@
 import {cart, addToCart} from '../data/cart.js'; //it can take the variable cart out of the file //.. means to go outside the current folder
 //to make our modules work we need to use live server
-import { products} from '../data/products.js';
+import {products} from '../data/products.js';
+import {formatCurrency} from './utils/money.js';
 
 let productsHTML = ''
 
@@ -25,7 +26,7 @@ products.forEach((product) => {
           </div>
 
           <div class="product-price">
-            $${(product.priceCents /100).toFixed(2)}
+            $${formatCurrency(product.priceCents)}
           </div>
 
           <div class="product-quantity-container">
@@ -71,7 +72,7 @@ function updateCartQuantity() {
 document.querySelectorAll('.js-add-to-cart')
     .forEach((button) => {
         button.addEventListener('click', () => {
-        const productId = button.dataset.productId; //name get converted into kebab case to camel case 
+        const productId = button.dataset.productId; //name gets converted into kebab case to camel case 
         addToCart(productId);
         updateCartQuantity();
         });
