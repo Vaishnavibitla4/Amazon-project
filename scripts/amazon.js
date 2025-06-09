@@ -1,5 +1,5 @@
-
-
+import {cart} from '../data/cart.js'; //it can take the variable cart out of the file //.. means to go outside the current folder
+//to make our modules work we need to use live server
 let productsHTML = ''
 
 products.forEach((product) => {
