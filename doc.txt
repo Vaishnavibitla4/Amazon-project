@@ -1,2 +1,7 @@
 Git = track changes in our code and let's us easily undo our changes
 Repository = a folder where changes are being tracked
+
+data attribute = is just an HTML attribute, we can attach any info to an element
+syntax-  data-product-name = '${product-name}'
+- it have to start with "data-" then give it any names
+-this is also known as kebab-case
