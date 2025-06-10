@@ -22,3 +22,5 @@ benefits:
     -helps us avoid naming conflicts
     -don't have to worry about order of files
     modules= better way to organize our code
+
+External libraries- code that is outside of our project
