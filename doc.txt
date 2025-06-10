@@ -24,3 +24,7 @@ benefits:
     modules= better way to organize our code
 
 External libraries- code that is outside of our project
+External libraries + JavaScript modules
+special version of the library called ESM version is used. It is a versio that works with JavaScript modules
+ESM = EcmaScript module 
+EcmaScript = JavaScript
