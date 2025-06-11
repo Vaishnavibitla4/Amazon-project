@@ -28,3 +28,7 @@ External libraries + JavaScript modules
 special version of the library called ESM version is used. It is a versio that works with JavaScript modules
 ESM = EcmaScript module 
 EcmaScript = JavaScript
+
+
+Testing Framework = external library that helps us write tests easier
+Ex- Jasmine, Jest(for ReactJS), MochaJS
