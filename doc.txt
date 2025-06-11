@@ -32,3 +32,7 @@ EcmaScript = JavaScript
 
 Testing Framework = external library that helps us write tests easier
 Ex- Jasmine, Jest(for ReactJS), MochaJS
+
+spec = test
+
+
