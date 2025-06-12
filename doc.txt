@@ -58,4 +58,9 @@ Hooks in Jasmine-
 ->beforeAll()=runs code before all tests
 ->afterAll()=runs code after all tests
 
+Git Process:
+-Make changes to code
+-Re-run the tests
+-Save to Git
+
 
