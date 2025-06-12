@@ -38,4 +38,17 @@ Flanky Test = test that sometimes passes and sometimes fails
 to solve the above problem we use a feature of jasmine called Mocks
 Mocks=lets us replace a method with a fake version
 
+Integrationn Tet = tests many units/pieces of code working together
+
+update the data
+regenerate all the HTML
+- this is called as MVC(ModelViewController)
+
+-split our code into 3 parts
+1.Model= saves and manages the data
+2.View= takes the data and displays it on the page
+3.Controller= runs some code when we interact with the page
+-make sure the page always matches the data
+-MVC is a design pattern
+
 
