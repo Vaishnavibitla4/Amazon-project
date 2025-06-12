@@ -34,5 +34,8 @@ Testing Framework = external library that helps us write tests easier
 Ex- Jasmine, Jest(for ReactJS), MochaJS
 
 spec = test
+Flanky Test = test that sometimes passes and sometimes fails
+to solve the above problem we use a feature of jasmine called Mocks
+Mocks=lets us replace a method with a fake version
 
 
