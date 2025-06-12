@@ -51,4 +51,11 @@ regenerate all the HTML
 -make sure the page always matches the data
 -MVC is a design pattern
 
+Hooks- lets us run some code for each test
+Hooks in Jasmine-
+->beforeEach()=runs code before each test
+->afterEach()=runs code after each test
+->beforeAll()=runs code before all tests
+->afterAll()=runs code after all tests
+
 
