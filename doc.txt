@@ -88,3 +88,24 @@ Class= object generator
 -> It doesn't returns anything
 
 Inheritance= lets us reuse code between classes
+
+-> Testing classes is the same as normal tests
+
+Built-in-classes=classes that are provided by the language
+Ex- new Date()= generates an object that represents the current date
+        -> It has a method called .toLocaleTimeString()= gives the current time
+        -> DayJS uses this Date class behind the scenes
+            -DayJS gives us a lot of extra features.
+            -so we use DayJS instead of Date directly
+
+"this" :
+    -lets an object access its own properties 
+    -can be used anywhere in our code
+
+Originally in JS , this= window 
+-> when they released JS modules, inside a module , this = undefined 
+
+Summary of this:
+1. Arrow functions do not change the value of "this"
+2. Common problem in JS- Inside a regular function, this = undefined But we can change it to whatever we want 
+3. Inside a method, "this" points to the outer object

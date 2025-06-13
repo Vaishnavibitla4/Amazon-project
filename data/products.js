@@ -58,6 +58,37 @@ class Clothing extends Product {
 
 }
 
+/*
+const date = new Date();
+console.log(date);
+console.log(date.toLocaleTimeString());
+
+
+console.log(this); // undefined
+
+const object2 = {
+  a: 2,
+  b: this.a // obbject2 has not been created yet. this = undefined
+};
+
+
+function logThis() {
+  console.log(this); // not inside of any object, so there's nothing for "this" to point to.
+}
+logThis();
+logThis.call('hello'); //hello
+// inside the above function, we can change "this" to whatever we want
+
+this
+const object3 = {
+  method: () => {
+    console.log(this); //"this" will have the same value as outside the arrow function
+  },
+  name: 'vyshu'
+};
+
+object3.method();
+*/
 
 export const products = [
   {
