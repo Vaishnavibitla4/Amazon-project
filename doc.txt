@@ -86,3 +86,5 @@ Class= object generator
 -> Classes have extra feature for OOP
     -constructor: lets us run setup code
 -> It doesn't returns anything
+
+Inheritance= lets us reuse code between classes
