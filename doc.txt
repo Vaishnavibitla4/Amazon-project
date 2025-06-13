@@ -63,4 +63,19 @@ Git Process:
 -Re-run the tests
 -Save to Git
 
+OOP- another style of programming (another way we write our code)
+-organizing our code into objects
 
+Procedural Programming: 
+procedure=a set of step-by-step instructions
+
+cart; is shortcut for cart=undefined;
+
+Function inside an object= method
+
+why use OOP?
+-tries to represent the real world 
+-easy to create multiple objects
+
+Use PascalCase for things that generate objeccts
+PascalCase= start every word with a capital
