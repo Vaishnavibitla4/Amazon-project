@@ -79,3 +79,10 @@ why use OOP?
 
 Use PascalCase for things that generate objeccts
 PascalCase= start every word with a capital
+
+An even bette way to generate objects-
+Class= object generator
+-> A class looks like the object that it generates
+-> Classes have extra feature for OOP
+    -constructor: lets us run setup code
+-> It doesn't returns anything
