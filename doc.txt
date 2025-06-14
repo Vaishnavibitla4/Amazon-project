@@ -138,3 +138,6 @@ inteface=how we interact with something
 
 types of data that backend will respond with are text, html, image
 Callback= a function to run in the future
+
+Jasmine has a feature for waiting for some code to finish - done() function
+- done() lets us control when to go to the next step
