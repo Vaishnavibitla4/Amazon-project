@@ -157,3 +157,7 @@ we can run multiple promises at the same time
 
 Promise.all()-lets us run multiple promises at the same time
     -and waits for all of them to finish
+
+fetch()- better way to make HTTP requests. it uses a promise.
+
+response.json() is asynchronous, it returns a promise

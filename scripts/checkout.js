@@ -2,23 +2,18 @@ import {renderOrderSummary} from "./checkout/orderSummary.js";
 import {renderPaymentSummary} from "./checkout/paymentSummary.js";
 //import '../data/cart-class.js'; //runs all the code inside the file
 //import '../data/backend-practice.js';
-import { loadProducts} from "../data/products.js";
+import { loadProducts, loadProductsFetch} from "../data/products.js";
 import { loadCart} from "../data/cart.js";
 
-Promise.all({
-    new Promise((resolve) => {
-
-        loadProducts(() => {
-            resolve('vyshu');
-        });
-    }),
+Promise.all([
+   loadProductsFetch(),
     new Promise((resolve) => {
         loadCart(() => {
             resolve();
         });
     })
 
-}).then((values) => {
+]).then((values) => {
     console.log(values);
     renderOrderSummary();
     renderPaymentSummary();
