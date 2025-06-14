@@ -161,3 +161,13 @@ Promise.all()-lets us run multiple promises at the same time
 fetch()- better way to make HTTP requests. it uses a promise.
 
 response.json() is asynchronous, it returns a promise
+
+Async Await= even a better way to handle asynchronos code
+-> It is a shortcut for promises.
+-> async = makes a function return a promise
+-> async lets us use await
+Await= lets us wait for a promise to finish, before going to next line
+-> await lets us write asynchronous code like normal code
+** we can only use await, when we're inside an async function
+-> the closest function has to be async.
+-> Use async await, over promises and callbacks
