@@ -181,3 +181,14 @@ Error Handling-
 -> to manually create an error we use 'throw' keyword
 -> if we're using promises, there are 2 ways to manually create an error
     -throw doesnot work in the future
+
+To send data in a rrequest, we need to use a different type of request.
+    -4 types
+    ->GET= get something from backend
+    ->POST=create something
+    ->PUT=update something
+    ->DELETE=delete something
+GET requests don't really let us send data to the backend.
+-headers gives the backend more information about our request.
+
+-> if you ever want to remove the orders from localStorage
