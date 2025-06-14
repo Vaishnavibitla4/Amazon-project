@@ -109,3 +109,31 @@ Summary of this:
 1. Arrow functions do not change the value of "this"
 2. Common problem in JS- Inside a regular function, this = undefined But we can change it to whatever we want 
 3. Inside a method, "this" points to the outer object
+
+Backend, Callbacks, Promises, and Async Await
+Backend= another computer that manages the data of a website
+XMLHttpRequest- this is a built-in class provided by the JS
+    -creates a new HTTP message to send to the backend, message=request.
+
+Types of requests: 
+    GET,POST,PUT,DELETE
+
+URL(Uniform Resource Locator)- Like an address, but for internet
+-Helps us locate another computer on the internet.
+Ex- https://amazon.com
+    https://youtube.com
+
+Request-Response Cycle = 1 request, 1 response
+-> A backend only supports a certain set of URL paths
+
+If we send a request to a URL path that is not supported, the backend will respond with an error.
+Status Code-
+    starts with 4 or 5 (400,404,500) = failed
+    4-our problem
+    5-backend problem
+    Starts with 2(200,201,204) = succeeded
+
+List of URL paths supported is backend API(application programming interface)
+inteface=how we interact with something
+
+types of data that backend will respond with are text, html, image
