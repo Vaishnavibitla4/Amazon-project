@@ -137,3 +137,4 @@ List of URL paths supported is backend API(application programming interface)
 inteface=how we interact with something
 
 types of data that backend will respond with are text, html, image
+Callback= a function to run in the future
