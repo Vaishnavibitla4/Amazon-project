@@ -141,3 +141,19 @@ Callback= a function to run in the future
 
 Jasmine has a feature for waiting for some code to finish - done() function
 - done() lets us control when to go to the next step
+
+Promises- better way to handle asynchronous code
+    -similar to done() function
+    -lets us wait for some code to finish, before going to the next step
+when we create a promise, it  runs tehe inner function immediately
+
+resolve is a function - similar to done() function
+    - lets us control when to go the next step
+
+Promises allow JS to do multiple things at the same time
+- lets us flatten our code
+use promises instead of callbacks- they keep our code more flat
+we can run multiple promises at the same time
+
+Promise.all()-lets us run multiple promises at the same time
+    -and waits for all of them to finish
