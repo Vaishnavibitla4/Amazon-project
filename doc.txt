@@ -171,3 +171,13 @@ Await= lets us wait for a promise to finish, before going to next line
 ** we can only use await, when we're inside an async function
 -> the closest function has to be async.
 -> Use async await, over promises and callbacks
+
+Error Handling-
+    When we're sending HTTP requests, we could get unexpected errors.
+-we can use try/catch with synchronous code(or normal code)
+-whenever we get an error, it will skip the rest of the code
+
+-> try/catch is meant to handle unexpected errors ( code is coredt, outside our control)
+-> to manually create an error we use 'throw' keyword
+-> if we're using promises, there are 2 ways to manually create an error
+    -throw doesnot work in the future
