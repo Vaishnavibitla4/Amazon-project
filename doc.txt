@@ -192,3 +192,7 @@ GET requests don't really let us send data to the backend.
 -headers gives the backend more information about our request.
 
 -> if you ever want to remove the orders from localStorage
+
+URL Parameters= lets us save data directly in the URL
+URL parameters= search parameters
+URL parameters lets us save different data in each URL
