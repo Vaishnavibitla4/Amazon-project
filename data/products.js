@@ -146,7 +146,6 @@ export function loadProducts(fun) {
   xhr.send();
 }
 
-loadProducts();
 
 
 /*

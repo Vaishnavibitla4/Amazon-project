@@ -196,3 +196,8 @@ GET requests don't really let us send data to the backend.
 URL Parameters= lets us save data directly in the URL
 URL parameters= search parameters
 URL parameters lets us save different data in each URL
+
+Learn how to create our own backend.
+1. Command line
+2. NodeJS = create our own backend
+3. Learn how to put a website on the internet
